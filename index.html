@@ -8,24 +8,38 @@ index.html
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <!-- Navigation Bar -->
+  <nav>
+    <ul>
+      <li><a href="#packages">Packages</a></li>
+      <li><a href="#itineraries">Itineraries</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
   <header>
     <h1>Discover Your Next Travel Destination</h1>
     <p>Unforgettable journeys tailored to your preferences and budget.</p>
   </header>
 
-  <section class="packages">
+  <!-- Packages Section -->
+  <section id="packages" class="packages">
     <h2>Packages</h2>
     <ul>
       <li><a href="#">Group Travels</a></li>
       <li><a href="#">Private Tours</a></li>
+      <li><a href="#">Family Holidays</a></li>
+      <li><a href="#">Luxury Escapes</a></li>
     </ul>
   </section>
 
-  <section class="itineraries">
+  <!-- Itineraries Section -->
+  <section id="itineraries" class="itineraries">
     <h2>Top Itineraries</h2>
     <div class="gallery">
       <figure>
-        <img src="images/Colosseum.jpg" alt="The Colosseum in Rome">
+        <img src="images/colosseum.jpg" alt="The Colosseum in Rome">
         <figcaption>Experience the wonders of Rome.</figcaption>
       </figure>
       <figure>
@@ -39,8 +53,23 @@ index.html
     </div>
   </section>
 
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
   <footer>
     <p>© 2026 Travel Agency | Designed by Mpho</p>
   </footer>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
 </body>
 </html>

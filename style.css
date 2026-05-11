@@ -70,3 +70,56 @@ footer {
   padding: 15px;
   margin-top: 20px;
 }
+/* Navigation Bar */
+nav {
+  background: #34495e;
+  padding: 10px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 0;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Contact Form */
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+}
+form input, form textarea {
+  margin: 10px 0;
+  padding: 10px;
+}
+form button {
+  background: #1abc9c;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+form button:hover {
+  background: #16a085;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .gallery {
+    flex-direction: column;
+    align-items: center;
+  }
+  .packages li {
+    display: block;
+    margin: 10px auto;
+  }
+}
