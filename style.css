@@ -123,3 +123,37 @@ form button:hover {
     margin: 10px auto;
   }
 }
+#contact {
+  background: #f4f4f4;
+  padding: 30px;
+  text-align: center;
+}
+
+#contact h2 {
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+}
+
+form input, form textarea {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+form button {
+  background: #1abc9c;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #16a085;
+}
